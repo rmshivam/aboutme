@@ -1,0 +1,230 @@
+/*----------------------selector section--------------------------*/
+
+body
+{
+  margin:0; /* default margin:8px;*/
+  text-align: center;
+
+}
+
+.footer-link
+{
+  width:10px;
+  height:10px;
+}
+
+h1
+{
+  margin:50px auto 0 auto; /*bottom!=0 and left-right:0 default*/
+  /* border-bottom: 3px solid grey;
+  width:160px; last 2 lines: for underline, direct=>text-decoration: underline grey;*/
+  align-items: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2
+{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3
+{
+  /* display:inline; */
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+hr
+{
+  width:5%;
+  border-style:none;
+  border-top: 7px dotted grey;
+}
+
+p
+{
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}
+
+/* span
+{
+  text-decoration: underline;
+}
+*/
+
+.skills
+{
+  padding:70px 0 0 0;
+}
+
+table
+{
+  padding:50px 0;
+}
+
+/*-----------------------class section--------------------------*/
+
+.bottom-cloud
+{
+  position: absolute;
+
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #119999);
+   background-image: -moz-linear-gradient(top, #11CDD4, #119999);
+   background-image: -ms-linear-gradient(top, #11CDD4, #119999);
+   background-image: -o-linear-gradient(top, #11CDD4, #119999);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #119999);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.copyright
+{
+  color:#EAF6F6;
+  font-size:.75rem;
+  margin-top:20px;
+}
+
+.contact
+{
+  margin-bottom:50px;
+}
+
+.contact-me
+{
+  padding:50px 0;
+}
+
+
+.creator,.prog
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  margin:20px auto 20px auto;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+.footer-link
+{
+  margin:5px;
+}
+
+
+
+.pro
+{
+  text-decoration: underline;
+}
+
+.profile
+{
+  padding:70px 0 50px 0;
+}
+
+.prog
+{
+  display: block;
+}
+
+
+
+.shivam
+{
+  width: 200px;
+  height:200px;
+  padding-bottom:20px;
+}
+
+.skill
+{
+  padding:70px 0;
+}
+
+.skill-row-img
+{
+
+  /* width: 150px;
+  height:150px; */
+  width:25%;
+  margin:0 30px 0 auto;
+
+}
+
+.skill-row
+{
+  width:50%;
+  color:#11999E;
+  align-items: center;
+  margin:50px auto 50px auto;/* (or: to center) display: inline-block; */
+  text-align:left;
+  line-height: 2em;
+}
+
+.top-cloud
+{
+  position: absolute;
+  top:40px;
+  right: 400px;
+}
+
+.top-container
+{
+  /*height:150px;*/
+  background-color: #E4F9F5;
+  /* border: 10px solid black;
+  height: 200px;
+  padding:20px;
+  width:200px; */
+  /*width:165px; it covers only im shivam*/
+  margin: 0;
+  padding-top: 90px;
+
+}
+
+.middle-container
+{
+  padding-top:0;
+
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding:50px 0 10px 0;
+}
